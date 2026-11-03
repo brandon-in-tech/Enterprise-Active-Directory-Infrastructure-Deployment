@@ -1,4 +1,3 @@
-
 <div align="center">
 
 <img src="./assets/brandons-logo.png" alt="Brandon Stevenson Logo" width="200" />
@@ -24,6 +23,14 @@ The infrastructure is designed to simulate a corporate Windows domain environmen
 The deployment will follow structured infrastructure engineering practices, including system configuration, security controls, administrative automation, technical validation, and troubleshooting documentation.
 
 All infrastructure is hosted locally within an isolated VMware virtual network.
+
+<p align="center">
+  <img src="assets/flowchart.png" alt="Enterprise Active Directory Infrastructure Deployment Overview Diagram" width="100%">
+</p>
+
+<p align="center">
+  <em>High-level overview of the virtualized Active Directory infrastructure, planned architecture, and deployment workflow.</em>
+</p>
 
 > **Project Status:** In Progress  
 > This repository is under active development. Technical documentation, PowerShell scripts, configuration evidence, and validation results will be added as deployment milestones are completed.
@@ -208,7 +215,8 @@ Enterprise-Active-Directory-Infrastructure-Deployment/
 |-- README.md
 |
 |-- assets/
-|   `-- brandons-logo.png
+|   |-- brandons-logo.png
+|   `-- flowchart.png
 |
 |-- architecture/
 |   |-- network-topology.png
